@@ -22,27 +22,25 @@
         android:layout_marginBottom="20dp"
         android:layout_marginStart="41dp">
 
-        <include android:id="@+id/twolayout" layout="@layout/s2"/>
         <include android:id="@+id/threelayout" layout="@layout/s3"/>
         <include android:id="@+id/fourlayout" layout="@layout/s4"/>
+        <include android:id="@+id/onelayout" layout="@layout/s1" />
+        <include android:id="@+id/twolayout" layout="@layout/s2" />
+
 
 
         <Button
             android:id="@+id/prev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:text="Previous" />
 
         <Button
             android:id="@+id/stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="17dp"
-            android:layout_toEndOf="@+id/prev"
-            android:text="STOP" />
+           android:text="STOP" />
 
         <Button
             android:id="@+id/next"
@@ -50,9 +48,7 @@
             android:layout_height="wrap_content"
             android:text="NEXT" />
 
-        <include
-            android:id="@+id/onelayout"
-            layout="@layout/s1" />
+
 
     </ViewFlipper>
 
