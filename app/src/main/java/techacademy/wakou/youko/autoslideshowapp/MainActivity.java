@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity{
     }
     public void onClick(View v){
         switch(v.getId()){
+
+            case R.id.play:
+                viewFlipper.startFlipping();
             break;
 
             case R.id.prev:
@@ -29,7 +32,12 @@ public class MainActivity extends AppCompatActivity{
                 viewFlipper.showPrevious();
                 break;
 
-            case R.id.
+            case R.id.stop:
+                viewFlipper.stopFlipping();
+                break;
+
+            default:
+                break;
         }
     }
 }
