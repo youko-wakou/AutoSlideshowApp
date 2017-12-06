@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ViewFlipper;
 
-public class MainActivity extends AppCompatActivity implements OnClickListener{
+public class MainActivity extends AppCompatActivity{
     private ViewFlipper viewFlipper;
     @Override
     public void onCreate(Bundle savedInstanceState) {
