@@ -5,14 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="PLAY" />
-
-
     <ViewFlipper
         android:id="@+id/flip"
         android:layout_width="match_parent"
@@ -26,8 +18,14 @@
         <include android:id="@+id/fourlayout" layout="@layout/s4"/>
         <include android:id="@+id/onelayout" layout="@layout/s1" />
         <include android:id="@+id/twolayout" layout="@layout/s2" />
+    </ViewFlipper>
 
-
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="PLAY" />
 
         <Button
             android:id="@+id/prev"
@@ -47,10 +45,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NEXT" />
-
-
-
-    </ViewFlipper>
-
 
 </RelativeLayout>
