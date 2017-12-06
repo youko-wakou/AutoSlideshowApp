@@ -57,8 +57,8 @@
         android:layout_marginBottom="20dp"
         android:layout_marginStart="41dp">
         <include android:id="@+id/onelayout" layout="@layout/s1"/>
-        <include android:id="@+id/twolayout"layout="@layout/s2"/>
-        <include android:id="@+id/threelayout"layout="@layout/s3"/>
+        <include android:id="@+id/twolayout" layout="@layout/s2"/>
+        <include android:id="@+id/threelayout" layout="@layout/s3"/>
         <include android:id="@+id/fourlayout" layout="@layout/s4"/>
     </ViewFlipper>
 
