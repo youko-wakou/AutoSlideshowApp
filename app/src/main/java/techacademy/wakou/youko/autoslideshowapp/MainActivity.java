@@ -17,4 +17,19 @@ public class MainActivity extends AppCompatActivity{
         viewFlipper.setAutoStart(true);
         viewFlipper.setFlipInterval(2000);
     }
+    public void onClick(View v){
+        switch(v.getId()){
+            break;
+
+            case R.id.prev:
+                viewFlipper.showPrevious();
+                break;
+
+            case R.id.next:
+                viewFlipper.showPrevious();
+                break;
+
+            case R.id.
+        }
+    }
 }
