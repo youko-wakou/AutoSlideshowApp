@@ -3,14 +3,19 @@ package techacademy.wakou.youko.autoslideshowapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ViewFlipper;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private ViewFlipper viewFlipper;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button play = new Button(this);
+        Button prev = new Button(this);
+        Button next = new Button(this);
+        Button stop = new Button(this);
 
         viewFlipper = (ViewFlipper) findViewById(R.id.flip);
 
